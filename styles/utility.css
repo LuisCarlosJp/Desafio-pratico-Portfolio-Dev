@@ -1,0 +1,33 @@
+.container {
+    max-width: 680px;
+    margin-inline: auto;
+}
+
+.container-2 {
+    max-width: 754px;
+    margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.py{
+    padding-block: 0.5rem;
+}
+
+.px{
+    padding-inline: 1rem;
+}
+
+.gap-1{
+    gap: 1rem;
+}
