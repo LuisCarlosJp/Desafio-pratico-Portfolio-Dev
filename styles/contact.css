@@ -1,0 +1,65 @@
+#contact {
+    text-align: center;
+    padding-inline: 120px;
+    padding-block: 128px 200px;
+    background-color: black;
+    background: url("../assets/Background_Contacts.png") no-repeat center/cover;
+    
+}
+
+#contact  header{
+    
+    & p{
+        color: var(--main-purple);
+        font: var(--subtitle);
+    }
+
+    & h2{
+        padding-top: 8px;
+        color: var(--gray-600);
+        font: var(--title-md); 
+    }
+
+    & span{
+        padding-top: 8px;
+        display: block;
+        color: var(--gray-500);
+        font: var(--text-md);
+    }
+}
+
+#contact .container{
+    padding-top: 48px;
+    width: 400px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+
+    & h3{
+        --contact: 400 16px/140% var(--font-family-maven-pro);
+        font: var(--contact);
+        color: var(--gray-500);
+    }
+
+    & .card{
+        padding: 20px;
+        background-color: var(--gray-300);
+        border-radius: 8px;
+        align-items: center;
+        gap: 12px;
+
+        & .box-1 {
+            margin-left: auto;
+        }
+    }
+
+    & .card:hover{
+
+        & img{
+            
+            filter: invert(51%) sepia(43%) saturate(727%) hue-rotate(163deg) brightness(96%) contrast(95%);
+        }
+        outline: 1.5px solid var(--main-blue);
+        
+    }
+}
